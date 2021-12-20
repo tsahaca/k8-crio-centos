@@ -127,7 +127,7 @@ echo "export TERM=xterm" >> /etc/bashrc
 
 echo "[TASK 10] Update /etc/hosts file"
 cat >>/etc/hosts<<EOF
-172.42.42.100   kmaster.example.com     kmaster
-172.42.42.101   kworker1.example.com    kworker1
-172.42.42.102   kworker2.example.com    kworker2
+192.168.57.100   kmaster.example.com     kmaster
+192.168.57.101   kworker1.example.com    kworker1
+192.168.57.102   kworker2.example.com    kworker2
 EOF
